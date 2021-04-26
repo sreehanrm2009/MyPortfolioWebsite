@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sir Tim Berners-Lee</title>
     <link rel="stylesheet" href="style.css">
-    <title>Niteen's Photography World</title>
-    <script src="main.js"></script>
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'>
 </head>
 
-<body onmouseover="setDate()">
-    <h1>Hello! Welcome to my Photogaphy Display Website!</h1>
-    <h4 id="date"></h4>
-    <div class="image-section">
-        <div class="section-style">
-            <img src="https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80">
-            <p>The greatest glory in living lies not in never falling, but in rising every time we fall.</p>
+<body>
+    <ul class="menu">
+        <li class="links">Home</li>
+        <li class="links">My Videos</li>
+        <li class="links">Work</li>
+        <li class="links">Writings</li>
+        <li class="links">Contact</li>
+    </ul>
+    <script src="main.js"></script>
+    <section id="welcome">
+        <div class="parallax-inner">
+            <img src="tbl.jpeg" class="profile">
+            <h1>I am <br><span id="name">Tim Berners-Lee</span></h1>
+            <h2>I am the founder of www: World Wide Web</h2>
         </div>
-        <div class="section-style">
-            <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
-            <p>The way to get started is to quit talking and begin doing. - Walt Disney</p>
-        </div>
-    </div>
-    <div class="image-section">
-        <div class="section-style">
-            <img src="https://images.unsplash.com/reserve/HgZuGu3gSD6db21T3lxm_San%20Zenone.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
-            <p>Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking. - Steve Jobs</p>
-        </div>
-        <div class="section-style">
-            <img src="https://images.unsplash.com/photo-1504567961542-e24d9439a724?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80">
-            <p>It is during our darkest moments that we must focus to see the light. - Aristotle</p>
-        </div>
-    </div>
-</body></html>
+    </section>
+    <section id="bio">
+        <h1>Hi!</h1>
+        <div class="line"></div>
+        <p>Sir Timothy John Berners-Lee, also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web. He is a Professorial Fellow of Computer Science at the University of Oxford and a professor at the Massachusetts Institute of Technology (MIT).<br> Berners-Lee proposed an information management system on 12 March 1989, then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the Internet in mid-November.</p>
+    </section>
+</body>
+
+</html>
