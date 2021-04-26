@@ -1,0 +1,20 @@
+body {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+div {
+    margin-top: 15px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-style {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: beige;
+}
